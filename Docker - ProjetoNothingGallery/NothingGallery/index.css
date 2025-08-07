@@ -1,0 +1,210 @@
+@font-face {
+    font-family: Voga;
+    src: url(../font/Voga_Medium.otf);
+}
+
+body {
+    margin: 0;
+    height: auto;
+    background-image: url(../images/fundo.svg);
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 8vmin;
+    top: 0vh;
+    left: 0vh;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Voga;
+    text-align: left;
+    padding-bottom: 1vh;
+    border-bottom: 0.5vh solid #ffffff;
+    z-index: 2;
+}
+    .headerh1 {
+        padding-top: 0.01vmin;
+    }
+
+    .btnEntrar {
+        background-color: #181818;
+        color: #ffffff;
+        width: 20vmin;
+        height: 5vmin;
+        font-family: Voga;
+        font-size: 1.5rem;
+        cursor: pointer;
+        display: block;
+        border: 1px solid #2b2b2b;
+    }
+
+    .userIconBtn {
+        background-image: url(images/user_icon.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50px;
+        width: 5vmin;
+        height: 5vmin;
+    }
+    .userIconDiv {
+        background-color: #494949;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 130vmin;
+        border: 4px solid #494949;
+        z-index: 5000;
+    }
+        @media screen and (min-width: 1600px) and (min-height: 900px) {
+            .userIconDiv {
+                background-color: #494949;
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                left: 117vmin;
+                border: 4px solid #494949;
+                z-index: 5000;
+            }
+        }
+        .userIconDivBtn {
+            width: auto;
+            height: 3.5vmin;
+            color: #ffffff;
+            background-color: #000000;
+            border: none;
+            cursor: pointer;
+            margin: 1px;
+        }
+
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tableHD {
+    border-spacing: 13em 0;
+}
+    .searchbar {
+        width: 35vmin;
+        height: 1vmin;
+        font-size: 1em;
+        padding: 1vmin;
+        background-color: none;
+    }
+    .user {
+        height: 50px;
+        width: 50px;
+    }
+
+.tableSpecial {
+    height: 65vmin;
+    width: 100%;
+    font-family: Voga;
+}
+    .TS_th1 {
+        width: 45vmin;
+        height: 100%;
+        background-image: url(/images/quadro_borrado1.svg);
+        background-size: cover;
+        font-size: 4em;
+        color: #F8FD0C;
+    }
+        .estrela {
+            width: 10vmin;
+            height: 7vmin;
+        }
+    .TS_th2 {
+        border-left: 0.5vh solid #ffffff;
+        border-bottom: 0.5vh solid #ffffff;
+        background-color: #44444491;
+    }
+
+    .divspecial {
+        background-color: #000000;
+        height: 7vmin;
+        width: 100%;
+        border-top: 1vh solid #000000;
+    }
+
+.tbquadros {
+    font-family: Voga;
+    color: white; 
+    font-size: 4em;   
+}
+
+.quadro {
+    text-align: center;
+    border: 0.5vh solid #ffffff;;
+}
+    .h1grunge {
+        font-family: Voga;
+        color: white; 
+        font-size: 3.5em;
+        margin: 0;
+    }
+
+
+
+.tableQuadros {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonQuadro {
+    background-color: #000000e5;
+    border: none;
+    cursor: pointer;
+}
+
+.quadro_slide {
+    width: 30vmin;       /* ou outro tamanho desejado */
+    height: auto;
+    border: 3px solid white;
+    margin: 2vmin;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    height: 28vmin;
+    background-color: #18181870;
+    color: #ffffff;
+    font-family: Voga;
+    display: flex;
+    align-items: center;
+}
+.tbfooter{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.thfooter {
+    font-size: 2em;
+}
+.links {
+    font-size: 1.5em;
+    color: #bebebe;
+    text-decoration: none;
+
+}

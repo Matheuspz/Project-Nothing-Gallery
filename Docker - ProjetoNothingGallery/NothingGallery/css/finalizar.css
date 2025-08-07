@@ -1,0 +1,184 @@
+@font-face {
+    font-family: Voga;
+    src: url(../font/CDType\ -\ Voga\ Medium.otf);
+}
+
+h2 {
+    font-size: 2.25em;
+    font-family: Voga;
+}
+
+.finalizar {
+    width: 50%;
+    height: 50%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-family: Voga;
+    border: 2px solid #ffffff;
+    cursor:auto;
+    gap: 40px;
+    padding: 30px;
+}
+
+.titulo {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    gap: 1rem;
+}
+.btnVoltar {
+    width: 5vmin;
+    height: 5vmin;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(63, 63, 63, 0.8);
+    color: #ffffff;
+    display: none;
+}
+
+
+.pagar {
+    width: 40vmin;
+    height: 8vmin;
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: Voga;
+    color: #ffffff;
+    background-color: #0e0e0e;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+.titulo {
+    font-size: 1.25em;
+}
+
+.fim1 {
+    height: 25%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fim2 {
+    height: 25%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.preco {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3em;
+}
+
+.formC {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    height: 50%;
+    width: 50%;
+}
+.inform {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin: 1vmin;
+    text-align: center;
+    padding-left: 2px;
+    border: 1px solid #616161;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+.finalizarCompra {
+    font-family: sans-serif;
+    border-style: none;
+    font-size: 1em;
+    background-color: #4b4b4b;
+    color: #ffffff;
+    width: auto;
+    height: 4vmin;
+    cursor: pointer;
+    font-family: Voga;
+}
+.comprarPIX {
+    width: 100%;
+    height: 100%;
+    display: none; 
+    flex-direction: column; 
+    align-items: center;
+}
+    .informEndPIX {
+        width: 50%;
+        height: 40px;
+        border-radius: 5px;
+        margin: 1vmin;
+        text-align: center;
+        padding-left: 2px;
+        border: 1px solid #616161;
+        /*background-color: #000000;*/
+        color: #ffffff;
+    }
+    .finPix {
+        width: 20vmin;
+        height: 6vmin;
+        border-radius: 5px;
+        border: none;
+        margin: 1vmin;
+        text-align: center;
+        padding-left: 2px;
+        border: 1px solid #616161;
+        background-color: #1a1a1a;
+        color: #ffffff;
+        font-family: Voga;
+        font-size: 1.5em;
+    }
+.qrcode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em
+}
+    .qrcodeTxt {
+        width: 25vmin;
+        text-align: center;
+        background-color: #1a1a1a;
+        border-radius: 5px;
+        border: 1px solid #616161;
+    }
+
+.error {
+    color: #ff9d9d;
+    font-size: 2.25vmin;
+    display: none;
+}
+.errorC {
+    color: #ff9d9d;
+    font-size: 2.25vmin;
+    display: none;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

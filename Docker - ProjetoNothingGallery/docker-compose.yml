@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Docker/php/Dockerfile
+    container_name: php_app
+    volumes:
+      - ./NothingGallery:/var/www/html
+      - ./NothingGallery/images:/var/www/html/images
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+    environment:
+      DB_HOST: ${DB_HOST}
+      DB_USER: ${DB_USER}
+      DB_PASS: ${DB_PASS}
+      DB_NAME: ${DB_NAME}
+
+  db:
+    image: mysql:8.0
+    container_name: nothinggallery-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: nothing_gallery
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:

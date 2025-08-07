@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Voga;
+    src: url(../font/Voga_Medium.otf);
+}
+
+.Update {
+    background-color: #000000;
+    height: 60vmin;
+    width: 50vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: #ffffff;
+    border-radius: 35px;
+    font-family: Voga;
+}
+
+.inputUpd {
+    color: #ffffff;
+    background-color: #1a1a1a;
+    border: 1px solid #363636;
+    height: 4vmin;
+}
+
+
+.labelUpd {
+    font-size: 3vmin;
+    padding-bottom: 1px;
+}
+
+.erroUpd {
+    font-size: 1.5em;
+    font-family: Voga;
+    color: #ff9d9d;
+    opacity: 0;
+    text-align: left;
+    height: 2vmin;
+    width: 50vmin;
+}
