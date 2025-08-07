@@ -1,5 +1,33 @@
+version: "3.8"
+
 services:
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: nothing_gallery
+      MYSQL_USER: user
+      MYSQL_PASSWORD: userpass
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - appnet
+
   app:
     image: matheuspeschzenere/nothing_gallery:latest
     ports:
       - "8080:80"
+    environment:
+      DB_HOST: mysql
+      DB_USER: user
+      DB_PASS: userpass
+    depends_on:
+      - mysql
+    networks:
+      - appnet
+
+volumes:
+  mysql_data:
+
+networks:
+  appnet:
