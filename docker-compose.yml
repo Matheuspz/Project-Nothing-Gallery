@@ -1,5 +1,5 @@
 services:
   app:
-    image: matheuspzenere/nothinggallery:latest
+    image: matheuspzenere/nothing_gallery:latest
     ports:
       - "8080:80"
